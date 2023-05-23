@@ -5,17 +5,17 @@ p:Copyright (c)2023 Quinn Michaels
 p:This is the main help file for Story Deva. Providing @STORY to deva.world.
 
 id: 3605038032151
-key: StoryDeva
+key: story
 name: Story Deva
 describe: Providing support to deva.world.
 
 ### Methods
 
-cmd:#StoryDeva uid
+cmd:#story uid
 p:Generate a unique id from the Story Deva.
 
-cmd:#StoryDeva status
+cmd:#story status
 p:Return the status for the Story Deva.
 
-cmd:#StoryDeva help
+cmd:#story help
 p:Get help using the Story Deva
