@@ -1,0 +1,50 @@
+{
+  "name": "Story Deva Data File",
+  "describe": "The main Data file for Story Deva",
+  "copyright": "Copyright (c)2023 Quinn Michaels. All rights reserved.",
+  "DATA": {
+    "agent": {
+      "uid": 3605038032151,
+      "key": "StoryDeva",
+      "prompt": {
+        "emoji": "🖥️ ",
+        "text": "StoryDeva",
+        "colors": {
+          "label": {
+            "R": 0,
+            "G": 136,
+            "B": 255
+          },
+          "text": {
+            "R": 0,
+            "G": 136,
+            "B": 255
+          }
+        }
+      },
+      "voice": {
+        "speech": "Joey",
+        "speed": 1
+      },
+      "profile": {
+        "name": "Story Deva",
+        "describe": "The Story Deva",
+        "emoji": "/public/devas/deva/emoji.png",
+        "avatar": "/public/devas/deva/avatar.png",
+        "background": "/public/devas/deva/background.png",
+        "gender": "male"
+      }
+    },
+    "vars": {
+      "messages": {
+        "init": "🟠 INIT",
+        "start": "🔵 START",
+        "enter": "🟢 ENTER",
+        "stop": "🔴 STOP",
+        "exit": "🟡 EXIT",
+        "done": "🟣 DONE",
+        "error": "💣 ERROR!"
+      }
+    }
+  }
+}
