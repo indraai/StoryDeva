@@ -1,6 +1,5 @@
 // Copyright (c)2023 Quinn Michaels
 // The Systems Deva manages the various @STORY in deva.world
-// Here we build our #StoryLand features.
 
 const fs = require('fs');
 const path = require('path');
