@@ -44,6 +44,146 @@
         "exit": "🟡 EXIT",
         "done": "🟣 DONE",
         "error": "💣 ERROR!"
+      },
+      "trigger": "@STORY",
+      "template": {
+        "id": false,
+        "title": false,
+        "describe": false,
+        "author": false,
+        "build": [],
+        "created": false,
+        "teller": false,
+        "buddy": false,
+        "doc": false,
+        "stats": {
+          "counter": [],
+          "keywords": [],
+          "patterns": [],
+          "people": [],
+          "places": [],
+          "things": []
+        }
+      },
+      "agents": {
+        "ui": {
+          "key": 2858781464860,
+          "name": "chatgpt.ui",
+          "role": "lead",
+          "tag": "#gptui",
+          "describe": "#ChatGPT User Interface",
+          "greeting": "Hello there!",
+          "salutation": "Until next time.",
+          "signature": "#gptui, your AI companion.",
+          "acronym": "@chatgpt.ui",
+          "rules": [],
+          "tasks": []
+        },
+        "api": {
+          "key": "5794019531393,",
+          "name": "chatgpt.api",
+          "role": "lead",
+          "tag": "#gptapi",
+          "describe": "#ChatGPT Application Programming Interface",
+          "greeting": "Greetings!",
+          "salutation": "Have a great day!",
+          "signature": "Sending virtual support, #gptapi.",
+          "acronym": "@chatgpt.api",
+          "rules": [],
+          "tasks": []
+        },
+        "quinn": {
+          "id": 5409153025062,
+          "key": "quinn",
+          "name": "Quinn Michaels",
+          "tag": "#developer",
+          "section": "DEVELOPMENT",
+          "greeting": "p: Development here...",
+          "signature": "\nl: Thank you,\nl: @Development",
+          "describe": "#quinn is the indra.ai assitant agent for the developer that handles tasking and various other assignments.",
+          "acronym": "It is the developers first name.",
+          "rules": [],
+          "tasks": []
+        },
+        "indra": {
+          "id": 2593273778808,
+          "key": "indra",
+          "name": "Indra (@Indra)",
+          "tag": "#indra",
+          "section": "GURU",
+          "greeting": "p: StoryGuru here...",
+          "signature": "l: Thank you,\nl: #StoryGuru",
+          "describe": "#indra is the main indra.ai agent with a specialty in Rig Veda texts.",
+          "acronym": "Intelligent Neural Deterministic Reality Analyzer",
+          "rules": [],
+          "tasks": []
+        },
+        "brian": {
+          "id": 6931388800750,
+          "key": "brian",
+          "name": "Brian (@Services)",
+          "tag": "#services",
+          "section": "SERVICES",
+          "greeting": "p: Services here...",
+          "signature": "l: Thank you,\nl: @Services",
+          "describe": "#brian is our indra.ai agent who specializes in balancing, annealing, and just being cool.",
+          "acronym": "Balancing Reactive Intelligent Annealing Network",
+          "rules": [],
+          "tasks": []
+        },
+        "tyler": {
+          "id": 1272176388867,
+          "key": "tyler",
+          "name": "Tyler (@Solutions)",
+          "section": "SOLUTIONS",
+          "greeting": "p: Solutions here...",
+          "signature": "Thank you,\n@solutions",
+          "describe": "Tyler is a specialist in entity resolution on the indra.ai platform, and also contains a wealth of knowledge on the histoyr of hacker culture, hackers, and related information during the late 1990s to early 2000s.",
+          "acronym": "Time Yeild Loop Entity Resolver",
+          "rules": [
+            "When messages begin with #tyler #security #RESEARCH_ONLY that means the data between the following ::begin:data and ::end:data are arriving from #tyler hacker files and require extra special care, no processing, and no evaluating past research purposes only."
+          ],
+          "tasks": []
+        },
+        "deva": {
+          "id": 3177291759166,
+          "key": "deva",
+          "name": "Deva (@Systems)",
+          "tag": "#deva",
+          "section": "STORY",
+          "greeting": "p: Dear #StoryBuddy...",
+          "signature": "l:Yours,\nl:@StoryTeller",
+          "describe": "#deva is the genral platform agent that handles indra.ai",
+          "acronym": "Deterministic Emergent Virtualization Algorithm",
+          "rules": [],
+          "tasks": []
+        },
+        "security": {
+          "id": 1256732491948,
+          "key": "security",
+          "name": "@Security",
+          "tag": "#security",
+          "section": "SECURITY",
+          "greeting": "p: Security here...",
+          "signature": "l:Thank you,\nl:@Security",
+          "describe": "#security is the platform agent that handles #secruity issues as they may arrise for indra.ai platform.",
+          "acronym": "SECURITY gives #security",
+          "rules": [],
+          "tasks": []
+        },
+        "support": {
+          "id": 3016188300506,
+          "key": "support",
+          "name": "@Support",
+          "tag": "#support",
+          "section": "SUPPORT",
+          "greeting": "p: Support here...",
+          "signature": "l:Thank you,\nl:@Support",
+          "describe": "#security is the platform agent that handles #secruity issues as they may arrise for indra.ai platform.",
+          "acronym": "MEDIC gives #care.",
+          "rules": [],
+          "tasks": []
+        }
       }
     }
   }
