@@ -1,5 +1,5 @@
 // Copyright (c)2023 Quinn Michaels
-// The Systems Deva manages the various @STORY in deva.world
+// The Story Deva manages the various @STORY in deva.world
 
 const fs = require('fs');
 const path = require('path');
